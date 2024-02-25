@@ -4,8 +4,9 @@ module price_cnt
 )
 (
     input   wire            sys_clk         ,
+    input   wire            sys_rst_n       ,  
+    input   wire [19:0]     distance        ,
     input   wire            encoder_pulses  ,      
-    input   wire            sys_rst_n       ,    
     input   wire            flag_key_launch , 
     input   wire            flag_key_step   ,  
     
@@ -26,11 +27,13 @@ always@(posedge sys_clk or  negedge sys_rst_n)
         
 always@(posedge encoder_pulses or  negedge sys_rst_n)
     if(sys_rst_n    ==  1'b0)
-        price    <=   20'd0;
+        price    <=   20'd0 ;
+    else    if( flag_key_launch == 1'b1 && flag_key_step == 1'b0 && (distance == 20'd1 || distance == 20'd2 || distance == 20'd3))   
+        price    <=  20'd6  ;
     else    if( flag_key_launch == 1'b1 && flag_key_step == 1'b0)   
         price    <=  price    +   20'd1;
     else    if(flag_key_launch == 1'b1 && flag_key_step == 1'b1 && cnt_2s ==  CNT_2S - 1'b1)
         price    <=  price    +   20'd2;    
     else 
-        price    <=  price;
+        price    <=  price  ;
 endmodule

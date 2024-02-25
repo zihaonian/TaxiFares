@@ -89,8 +89,9 @@ price_cnt
 )price_cnt_inst
 (
     .sys_clk        (sys_clk)           ,
-    .encoder_pulses (encoder_pulses)    ,      
-    .sys_rst_n      (sys_rst_n)         ,    
+    .sys_rst_n      (sys_rst_n)         ,  
+    .distance       (distance)          ,
+    .encoder_pulses (encoder_pulses)    ,        
     .flag_key_launch(flag_key_launch)   , 
     .flag_key_step  (flag_key_step)     ,  
 

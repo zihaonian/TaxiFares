@@ -1,5 +1,5 @@
 Fitter report for Taxi_fares
-Sat Feb 24 22:51:56 2024
+Sun Feb 25 20:10:32 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -68,15 +68,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                        ;
 +------------------------------------+--------------------------------------------------+
-; Fitter Status                      ; Successful - Sat Feb 24 22:51:56 2024            ;
+; Fitter Status                      ; Successful - Sun Feb 25 20:10:32 2024            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; Taxi_fares                                       ;
 ; Top-level Entity Name              ; top_taxi_fares                                   ;
 ; Family                             ; Cyclone IV E                                     ;
 ; Device                             ; EP4CE10F17C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 389 / 10,320 ( 4 % )                             ;
-;     Total combinational functions  ; 378 / 10,320 ( 4 % )                             ;
+; Total logic elements               ; 385 / 10,320 ( 4 % )                             ;
+;     Total combinational functions  ; 376 / 10,320 ( 4 % )                             ;
 ;     Dedicated logic registers      ; 240 / 10,320 ( 2 % )                             ;
 ; Total registers                    ; 240                                              ;
 ; Total pins                         ; 15 / 180 ( 8 % )                                 ;
@@ -154,12 +154,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.60        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ; < 0.1%      ;
+;     Processors 2-4         ;  20.0%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -193,8 +193,8 @@ applicable agreement for further details.
 ; Type                ; Value                  ;
 +---------------------+------------------------+
 ; Placement (by node) ;                        ;
-;     -- Requested    ; 0 / 662 ( 0.00 % )     ;
-;     -- Achieved     ; 0 / 662 ( 0.00 % )     ;
+;     -- Requested    ; 0 / 660 ( 0.00 % )     ;
+;     -- Achieved     ; 0 / 660 ( 0.00 % )     ;
 ;                     ;                        ;
 ; Routing (by net)    ;                        ;
 ;     -- Requested    ; 0 / 0 ( 0.00 % )       ;
@@ -217,7 +217,7 @@ applicable agreement for further details.
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name                 ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
-; Top                            ; 652     ; 0                 ; N/A                     ; Source File       ;
+; Top                            ; 650     ; 0                 ; N/A                     ; Source File       ;
 ; hard_block:auto_generated_inst ; 10      ; 0                 ; N/A                     ; Source File       ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 
@@ -225,7 +225,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/output_files/Taxi_fares.pin.
+The pin-out file can be found in C:/Users/demo/Desktop/git_Repositories/Taxi_fares/quartus_prj/output_files/Taxi_fares.pin.
 
 
 +--------------------------------------------------------------------+
@@ -233,19 +233,19 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Total logic elements                        ; 389 / 10,320 ( 4 % ) ;
-;     -- Combinational with no register       ; 149                  ;
-;     -- Register only                        ; 11                   ;
-;     -- Combinational with a register        ; 229                  ;
+; Total logic elements                        ; 385 / 10,320 ( 4 % ) ;
+;     -- Combinational with no register       ; 145                  ;
+;     -- Register only                        ; 9                    ;
+;     -- Combinational with a register        ; 231                  ;
 ;                                             ;                      ;
 ; Logic element usage by number of LUT inputs ;                      ;
-;     -- 4 input functions                    ; 199                  ;
-;     -- 3 input functions                    ; 33                   ;
-;     -- <=2 input functions                  ; 146                  ;
-;     -- Register only                        ; 11                   ;
+;     -- 4 input functions                    ; 197                  ;
+;     -- 3 input functions                    ; 34                   ;
+;     -- <=2 input functions                  ; 145                  ;
+;     -- Register only                        ; 9                    ;
 ;                                             ;                      ;
 ; Logic elements by mode                      ;                      ;
-;     -- normal mode                          ; 258                  ;
+;     -- normal mode                          ; 256                  ;
 ;     -- arithmetic mode                      ; 120                  ;
 ;                                             ;                      ;
 ; Total registers*                            ; 240 / 11,172 ( 2 % ) ;
@@ -270,10 +270,10 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )        ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )        ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%         ;
-; Peak interconnect usage (total/H/V)         ; 1% / 1% / 2%         ;
+; Peak interconnect usage (total/H/V)         ; 0% / 0% / 1%         ;
 ; Maximum fan-out                             ; 236                  ;
 ; Highest non-global fan-out                  ; 31                   ;
-; Total fan-out                               ; 2101                 ;
+; Total fan-out                               ; 2092                 ;
 ; Average fan-out                             ; 3.13                 ;
 +---------------------------------------------+----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
@@ -287,19 +287,19 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 +---------------------------------------------+---------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                 ; Low                            ;
 ;                                             ;                     ;                                ;
-; Total logic elements                        ; 389 / 10320 ( 4 % ) ; 0 / 10320 ( 0 % )              ;
-;     -- Combinational with no register       ; 149                 ; 0                              ;
-;     -- Register only                        ; 11                  ; 0                              ;
-;     -- Combinational with a register        ; 229                 ; 0                              ;
+; Total logic elements                        ; 385 / 10320 ( 4 % ) ; 0 / 10320 ( 0 % )              ;
+;     -- Combinational with no register       ; 145                 ; 0                              ;
+;     -- Register only                        ; 9                   ; 0                              ;
+;     -- Combinational with a register        ; 231                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic element usage by number of LUT inputs ;                     ;                                ;
-;     -- 4 input functions                    ; 199                 ; 0                              ;
-;     -- 3 input functions                    ; 33                  ; 0                              ;
-;     -- <=2 input functions                  ; 146                 ; 0                              ;
-;     -- Register only                        ; 11                  ; 0                              ;
+;     -- 4 input functions                    ; 197                 ; 0                              ;
+;     -- 3 input functions                    ; 34                  ; 0                              ;
+;     -- <=2 input functions                  ; 145                 ; 0                              ;
+;     -- Register only                        ; 9                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic elements by mode                      ;                     ;                                ;
-;     -- normal mode                          ; 258                 ; 0                              ;
+;     -- normal mode                          ; 256                 ; 0                              ;
 ;     -- arithmetic mode                      ; 120                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Total registers                             ; 240                 ; 0                              ;
@@ -321,8 +321,8 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ;     -- Registered Output Connections        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Internal Connections                        ;                     ;                                ;
-;     -- Total Connections                    ; 2096                ; 5                              ;
-;     -- Registered Connections               ; 728                 ; 0                              ;
+;     -- Total Connections                    ; 2087                ; 5                              ;
+;     -- Registered Connections               ; 726                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; External Connections                        ;                     ;                                ;
 ;     -- Top                                  ; 0                   ; 0                              ;
@@ -367,16 +367,16 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 +-----------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name            ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +-----------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; StepDrive[0]    ; B10   ; 7        ; 21           ; 24           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; StepDrive[1]    ; E9    ; 7        ; 18           ; 24           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; StepDrive[2]    ; A10   ; 7        ; 21           ; 24           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; StepDrive[3]    ; A15   ; 7        ; 21           ; 24           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; ds              ; J14   ; 5        ; 34           ; 10           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; flag_key_launch ; F13   ; 6        ; 34           ; 17           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; flag_key_step   ; B16   ; 6        ; 34           ; 18           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; oe              ; G1    ; 1        ; 0            ; 18           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; shcp            ; J12   ; 5        ; 34           ; 11           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; stcp            ; J13   ; 5        ; 34           ; 11           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; StepDrive[0]    ; G1    ; 1        ; 0            ; 18           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; StepDrive[1]    ; G2    ; 1        ; 0            ; 18           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; StepDrive[2]    ; G5    ; 1        ; 0            ; 19           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; StepDrive[3]    ; F2    ; 1        ; 0            ; 19           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; ds              ; F9    ; 7        ; 23           ; 24           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; flag_key_launch ; F11   ; 7        ; 23           ; 24           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; flag_key_step   ; B11   ; 7        ; 25           ; 24           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; oe              ; F1    ; 1        ; 0            ; 19           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; shcp            ; B10   ; 7        ; 21           ; 24           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; stcp            ; J12   ; 5        ; 34           ; 11           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 +-----------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -401,20 +401,20 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
 
 
-+-----------------------------------------------------------+
-; I/O Bank Usage                                            ;
-+----------+-----------------+---------------+--------------+
-; I/O Bank ; Usage           ; VCCIO Voltage ; VREF Voltage ;
-+----------+-----------------+---------------+--------------+
-; 1        ; 6 / 17 ( 35 % ) ; 2.5V          ; --           ;
-; 2        ; 2 / 19 ( 11 % ) ; 2.5V          ; --           ;
-; 3        ; 0 / 26 ( 0 % )  ; 2.5V          ; --           ;
-; 4        ; 0 / 27 ( 0 % )  ; 2.5V          ; --           ;
-; 5        ; 3 / 25 ( 12 % ) ; 2.5V          ; --           ;
-; 6        ; 5 / 14 ( 36 % ) ; 2.5V          ; --           ;
-; 7        ; 4 / 26 ( 15 % ) ; 2.5V          ; --           ;
-; 8        ; 0 / 26 ( 0 % )  ; 2.5V          ; --           ;
-+----------+-----------------+---------------+--------------+
++------------------------------------------------------------+
+; I/O Bank Usage                                             ;
++----------+------------------+---------------+--------------+
+; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
++----------+------------------+---------------+--------------+
+; 1        ; 10 / 17 ( 59 % ) ; 2.5V          ; --           ;
+; 2        ; 2 / 19 ( 11 % )  ; 2.5V          ; --           ;
+; 3        ; 0 / 26 ( 0 % )   ; 2.5V          ; --           ;
+; 4        ; 0 / 27 ( 0 % )   ; 2.5V          ; --           ;
+; 5        ; 1 / 25 ( 4 % )   ; 2.5V          ; --           ;
+; 6        ; 3 / 14 ( 21 % )  ; 2.5V          ; --           ;
+; 7        ; 4 / 26 ( 15 % )  ; 2.5V          ; --           ;
+; 8        ; 0 / 26 ( 0 % )   ; 2.5V          ; --           ;
++----------+------------------+---------------+--------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -431,12 +431,12 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ; A7       ; 183        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A8       ; 177        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A9       ; 175        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; A10      ; 168        ; 7        ; StepDrive[2]                                              ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; A10      ; 168        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A11      ; 161        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A12      ; 159        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A13      ; 153        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A14      ; 155        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; A15      ; 167        ; 7        ; StepDrive[3]                                              ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; A15      ; 167        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A16      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; B1       ; 3          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; B2       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -447,13 +447,13 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ; B7       ; 184        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B8       ; 178        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B9       ; 176        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; B10      ; 169        ; 7        ; StepDrive[0]                                              ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; B11      ; 162        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; B10      ; 169        ; 7        ; shcp                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; B11      ; 162        ; 7        ; flag_key_step                                             ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B12      ; 160        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B13      ; 154        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B14      ; 156        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B15      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; B16      ; 141        ; 6        ; flag_key_step                                             ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; B16      ; 141        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; C1       ; 5          ; 1        ; ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP     ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; On           ;
 ; C2       ; 4          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; C3       ; 202        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -494,7 +494,7 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ; E6       ; 191        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E7       ; 190        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E8       ; 181        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; E9       ; 174        ; 7        ; StepDrive[1]                                              ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; E9       ; 174        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E10      ; 158        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E11      ; 157        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E12      ;            ;          ; GNDA2                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -502,27 +502,27 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ; E14      ;            ; 6        ; VCCIO6                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; E15      ; 128        ; 6        ; key_step                                                  ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; E16      ; 127        ; 6        ; key_launch                                                ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; F1       ; 12         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; F2       ; 11         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; F1       ; 12         ; 1        ; oe                                                        ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; F2       ; 11         ; 1        ; StepDrive[3]                                              ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; F3       ; 6          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; F4       ; 9          ; 1        ; ^nSTATUS                                                  ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; F5       ; 2          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; F6       ; 185        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; F7       ; 186        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; F8       ; 182        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; F9       ; 165        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; F9       ; 165        ; 7        ; ds                                                        ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F10      ; 164        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; F11      ; 166        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; F11      ; 166        ; 7        ; flag_key_launch                                           ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F12      ;            ; --       ; VCCA2                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; F13      ; 138        ; 6        ; flag_key_launch                                           ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; F13      ; 138        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; F14      ; 142        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; F15      ; 140        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; F16      ; 139        ; 6        ; ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN                ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; G1       ; 14         ; 1        ; oe                                                        ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; G2       ; 13         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; G1       ; 14         ; 1        ; StepDrive[0]                                              ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; G2       ; 13         ; 1        ; StepDrive[1]                                              ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; G3       ;            ; 1        ; VCCIO1                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; G4       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; G5       ; 10         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; G5       ; 10         ; 1        ; StepDrive[2]                                              ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; G6       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; G7       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; G8       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -562,9 +562,9 @@ The pin-out file can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/o
 ; J9       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J10      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J11      ; 117        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; J12      ; 123        ; 5        ; shcp                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; J13      ; 124        ; 5        ; stcp                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; J14      ; 122        ; 5        ; ds                                                        ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J12      ; 123        ; 5        ; stcp                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J13      ; 124        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; J14      ; 122        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; J15      ; 121        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; J16      ; 120        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; K1       ; 33         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -688,15 +688,15 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------+--------------+
 ; Compilation Hierarchy Node               ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                 ; Library Name ;
 +------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------+--------------+
-; |top_taxi_fares                          ; 389 (0)     ; 240 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 15   ; 0            ; 149 (0)      ; 11 (0)            ; 229 (0)          ; |top_taxi_fares                                     ; work         ;
-;    |Stepper_motors:Stepper_motors_inst|  ; 57 (57)     ; 27 (27)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 30 (30)      ; 0 (0)             ; 27 (27)          ; |top_taxi_fares|Stepper_motors:Stepper_motors_inst  ; work         ;
-;    |binary2bcd_216:binary2bcd_216_inst1| ; 48 (48)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 19 (19)      ; 2 (2)             ; 27 (27)          ; |top_taxi_fares|binary2bcd_216:binary2bcd_216_inst1 ; work         ;
-;    |binary2bcd_216:binary2bcd_216_inst2| ; 67 (67)     ; 44 (44)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 20 (20)      ; 7 (7)             ; 40 (40)          ; |top_taxi_fares|binary2bcd_216:binary2bcd_216_inst2 ; work         ;
-;    |hc595_ctrl:hc595_ctrl_inst|          ; 22 (22)     ; 9 (9)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (9)        ; 1 (1)             ; 12 (12)          ; |top_taxi_fares|hc595_ctrl:hc595_ctrl_inst          ; work         ;
+; |top_taxi_fares                          ; 385 (0)     ; 240 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 15   ; 0            ; 145 (0)      ; 9 (0)             ; 231 (0)          ; |top_taxi_fares                                     ; work         ;
+;    |Stepper_motors:Stepper_motors_inst|  ; 54 (54)     ; 27 (27)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 27 (27)      ; 0 (0)             ; 27 (27)          ; |top_taxi_fares|Stepper_motors:Stepper_motors_inst  ; work         ;
+;    |binary2bcd_216:binary2bcd_216_inst1| ; 47 (47)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 17 (17)      ; 2 (2)             ; 28 (28)          ; |top_taxi_fares|binary2bcd_216:binary2bcd_216_inst1 ; work         ;
+;    |binary2bcd_216:binary2bcd_216_inst2| ; 67 (67)     ; 44 (44)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 23 (23)      ; 5 (5)             ; 39 (39)          ; |top_taxi_fares|binary2bcd_216:binary2bcd_216_inst2 ; work         ;
+;    |hc595_ctrl:hc595_ctrl_inst|          ; 24 (24)     ; 9 (9)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (11)      ; 1 (1)             ; 12 (12)          ; |top_taxi_fares|hc595_ctrl:hc595_ctrl_inst          ; work         ;
 ;    |key_filter:key_filter_inst1|         ; 28 (28)     ; 21 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 21 (21)          ; |top_taxi_fares|key_filter:key_filter_inst1         ; work         ;
 ;    |key_filter:key_filter_inst2|         ; 28 (28)     ; 21 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 21 (21)          ; |top_taxi_fares|key_filter:key_filter_inst2         ; work         ;
-;    |price_cnt:price_cnt_inst|            ; 91 (91)     ; 47 (47)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 44 (44)      ; 0 (0)             ; 47 (47)          ; |top_taxi_fares|price_cnt:price_cnt_inst            ; work         ;
-;    |seg_dynamic:seg_dynamic_inst|        ; 67 (67)     ; 42 (42)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 13 (13)      ; 1 (1)             ; 53 (53)          ; |top_taxi_fares|seg_dynamic:seg_dynamic_inst        ; work         ;
+;    |price_cnt:price_cnt_inst|            ; 92 (92)     ; 47 (47)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 45 (45)      ; 0 (0)             ; 47 (47)          ; |top_taxi_fares|price_cnt:price_cnt_inst            ; work         ;
+;    |seg_dynamic:seg_dynamic_inst|        ; 67 (67)     ; 42 (42)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 1 (1)             ; 58 (58)          ; |top_taxi_fares|seg_dynamic:seg_dynamic_inst        ; work         ;
 +------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -742,21 +742,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name                                            ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +-------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; binary2bcd_216:binary2bcd_216_inst1|data[22]~10 ; LCCOMB_X28_Y16_N4  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst1|data[26]~8  ; LCCOMB_X28_Y14_N22 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst1|data[30]~5  ; LCCOMB_X29_Y15_N0  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst2|Equal1~1    ; LCCOMB_X28_Y15_N30 ; 24      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst2|data[18]~49 ; LCCOMB_X28_Y15_N14 ; 19      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst2|data[20]~12 ; LCCOMB_X31_Y15_N22 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst2|data[27]~9  ; LCCOMB_X29_Y15_N28 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; binary2bcd_216:binary2bcd_216_inst2|data[28]~6  ; LCCOMB_X31_Y15_N10 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst1|data[22]~10 ; LCCOMB_X21_Y12_N4  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst1|data[26]~8  ; LCCOMB_X25_Y12_N4  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst1|data[30]~5  ; LCCOMB_X21_Y12_N18 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst2|Equal1~1    ; LCCOMB_X22_Y12_N14 ; 24      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst2|data[18]~50 ; LCCOMB_X22_Y12_N26 ; 19      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst2|data[20]~14 ; LCCOMB_X21_Y15_N26 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst2|data[27]~11 ; LCCOMB_X23_Y12_N6  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; binary2bcd_216:binary2bcd_216_inst2|data[28]~8  ; LCCOMB_X23_Y12_N22 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
 ; encoder_pulses                                  ; PIN_M2             ; 20      ; Clock        ; yes    ; Global Clock         ; GCLK4            ; --                        ;
-; key_filter:key_filter_inst1|cnt_20ms[2]~56      ; LCCOMB_X25_Y13_N20 ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; key_filter:key_filter_inst2|cnt_20ms[1]~56      ; LCCOMB_X26_Y15_N24 ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; key_filter:key_filter_inst1|cnt_20ms[2]~22      ; LCCOMB_X26_Y12_N20 ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; key_filter:key_filter_inst2|cnt_20ms[1]~22      ; LCCOMB_X28_Y14_N20 ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
 ; key_launch                                      ; PIN_E16            ; 21      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
 ; key_step                                        ; PIN_E15            ; 21      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; price_cnt:price_cnt_inst|price[12]~62           ; LCCOMB_X24_Y16_N6  ; 19      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; seg_dynamic:seg_dynamic_inst|cnt_flag           ; FF_X29_Y14_N31     ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; price_cnt:price_cnt_inst|price[12]~62           ; LCCOMB_X24_Y15_N30 ; 19      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; seg_dynamic:seg_dynamic_inst|cnt_flag           ; FF_X21_Y13_N29     ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
 ; sys_clk                                         ; PIN_E1             ; 220     ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
 ; sys_rst_n                                       ; PIN_M1             ; 6       ; Clock enable ; no     ; --                   ; --               ; --                        ;
 ; sys_rst_n                                       ; PIN_M1             ; 236     ; Async. clear ; yes    ; Global Clock         ; GCLK3            ; --                        ;
@@ -769,7 +769,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name           ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; encoder_pulses ; PIN_M2   ; 20      ; 0                                    ; Global Clock         ; GCLK4            ; --                        ;
-; sys_clk        ; PIN_E1   ; 220     ; 11                                   ; Global Clock         ; GCLK2            ; --                        ;
+; sys_clk        ; PIN_E1   ; 220     ; 7                                    ; Global Clock         ; GCLK2            ; --                        ;
 ; sys_rst_n      ; PIN_M1   ; 236     ; 0                                    ; Global Clock         ; GCLK3            ; --                        ;
 +----------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
@@ -780,33 +780,32 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                               ; Fan-Out ;
 +----------------------------------------------------+---------+
 ; binary2bcd_216:binary2bcd_216_inst2|Equal0~1       ; 31      ;
+; binary2bcd_216:binary2bcd_216_inst1|cnt_flag[0]    ; 28      ;
 ; price_cnt:price_cnt_inst|Equal0~8                  ; 27      ;
-; price_cnt:price_cnt_inst|always1~4                 ; 27      ;
-; binary2bcd_216:binary2bcd_216_inst1|cnt_flag[0]    ; 27      ;
+; price_cnt:price_cnt_inst|always1~5                 ; 27      ;
 ; binary2bcd_216:binary2bcd_216_inst2|Equal1~1       ; 24      ;
 ; binary2bcd_216:binary2bcd_216_inst2|always2~0      ; 23      ;
+; Stepper_motors:Stepper_motors_inst|Equal0~6        ; 23      ;
+; binary2bcd_216:binary2bcd_216_inst2|Equal0~0       ; 22      ;
+; price_cnt:price_cnt_inst|always1~0                 ; 22      ;
 ; hc595_ctrl:hc595_ctrl_inst|cnt[0]                  ; 22      ;
 ; key_step~input                                     ; 21      ;
 ; key_launch~input                                   ; 21      ;
-; binary2bcd_216:binary2bcd_216_inst2|Equal0~0       ; 21      ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[19]~25 ; 20      ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[8]~24  ; 20      ;
-; key_filter:key_filter_inst2|cnt_20ms[1]~56         ; 20      ;
-; key_filter:key_filter_inst1|cnt_20ms[2]~56         ; 20      ;
+; key_filter:key_filter_inst2|cnt_20ms[1]~22         ; 20      ;
+; key_filter:key_filter_inst1|cnt_20ms[2]~22         ; 20      ;
 ; price_cnt:price_cnt_inst|price[12]~62              ; 19      ;
-; binary2bcd_216:binary2bcd_216_inst2|data[18]~49    ; 19      ;
+; binary2bcd_216:binary2bcd_216_inst2|data[18]~50    ; 19      ;
 ; seg_dynamic:seg_dynamic_inst|cnt_sel[1]            ; 15      ;
 ; seg_dynamic:seg_dynamic_inst|cnt_sel[0]            ; 12      ;
 ; seg_dynamic:seg_dynamic_inst|cnt_flag              ; 10      ;
 ; hc595_ctrl:hc595_ctrl_inst|cnt_num[1]              ; 10      ;
 ; hc595_ctrl:hc595_ctrl_inst|cnt_num[0]              ; 10      ;
-; key_filter:key_filter_inst2|key_flag               ; 9       ;
-; key_filter:key_filter_inst1|key_flag               ; 9       ;
+; binary2bcd_216:binary2bcd_216_inst2|LessThan6~1    ; 8       ;
 ; seg_dynamic:seg_dynamic_inst|data_disp[3]          ; 8       ;
 ; seg_dynamic:seg_dynamic_inst|data_disp[2]          ; 8       ;
 ; seg_dynamic:seg_dynamic_inst|data_disp[1]          ; 8       ;
-; binary2bcd_216:binary2bcd_216_inst2|LessThan6~1    ; 7       ;
-; binary2bcd_216:binary2bcd_216_inst1|cnt_flag[4]    ; 7       ;
+; key_filter:key_filter_inst2|key_flag               ; 8       ;
+; key_filter:key_filter_inst1|key_flag               ; 8       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_sel[2]            ; 7       ;
 ; seg_dynamic:seg_dynamic_inst|data_disp[0]          ; 7       ;
 ; Stepper_motors:Stepper_motors_inst|State[0]        ; 7       ;
@@ -823,6 +822,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; binary2bcd_216:binary2bcd_216_inst1|data[20]       ; 6       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[20]       ; 6       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[24]       ; 6       ;
+; binary2bcd_216:binary2bcd_216_inst1|cnt_flag[4]    ; 6       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[28]       ; 6       ;
 ; seg_dynamic:seg_dynamic_inst|always2~0             ; 6       ;
 ; Stepper_motors:Stepper_motors_inst|State[1]        ; 6       ;
@@ -837,8 +837,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; binary2bcd_216:binary2bcd_216_inst2|data[21]       ; 5       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[25]       ; 5       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[29]       ; 5       ;
-; Stepper_motors:Stepper_motors_inst|Equal0~5        ; 5       ;
-; Stepper_motors:Stepper_motors_inst|Equal0~0        ; 5       ;
 ; Stepper_motors:Stepper_motors_inst|State[2]        ; 5       ;
 ; hc595_ctrl:hc595_ctrl_inst|cnt_num[2]              ; 5       ;
 ; hc595_ctrl:hc595_ctrl_inst|cnt_num[3]              ; 5       ;
@@ -855,10 +853,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; price_cnt:price_cnt_inst|cnt_2s[9]                 ; 4       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[26]~8     ; 4       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[30]~5     ; 4       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[20]~12    ; 4       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[27]~9     ; 4       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[28]~6     ; 4       ;
-; binary2bcd_216:binary2bcd_216_inst2|LessThan6~0    ; 4       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[20]~14    ; 4       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[27]~11    ; 4       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[28]~8     ; 4       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[31]       ; 4       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[31]       ; 4       ;
 ; binary2bcd_216:binary2bcd_216_inst2|Equal1~0       ; 4       ;
@@ -884,6 +881,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; price_cnt:price_cnt_inst|cnt_2s[26]                ; 3       ;
 ; price_cnt:price_cnt_inst|price[0]                  ; 3       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[22]~10    ; 3       ;
+; binary2bcd_216:binary2bcd_216_inst2|LessThan6~0    ; 3       ;
 ; Stepper_motors:Stepper_motors_inst|cnt_20ms[7]     ; 3       ;
 ; Stepper_motors:Stepper_motors_inst|cnt_20ms[4]     ; 3       ;
 ; Stepper_motors:Stepper_motors_inst|cnt_20ms[5]     ; 3       ;
@@ -928,7 +926,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; seg_dynamic:seg_dynamic_inst|cnt_1ms[13]           ; 2       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_1ms[14]           ; 2       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_1ms[15]           ; 2       ;
-; Stepper_motors:Stepper_motors_inst|always0~0       ; 2       ;
 ; seg_dynamic:seg_dynamic_inst|sel_reg[3]            ; 2       ;
 ; seg_dynamic:seg_dynamic_inst|sel_reg[1]            ; 2       ;
 ; seg_dynamic:seg_dynamic_inst|sel_reg[2]            ; 2       ;
@@ -996,39 +993,39 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; seg_dynamic:seg_dynamic_inst|cnt_sel[0]~2          ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|sel[0]~0              ; 1       ;
 ; hc595_ctrl:hc595_ctrl_inst|cnt[0]~0                ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~51        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~24        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~49        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data~48        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[18]~47    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~46        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~45        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~47        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[1]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~44        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~46        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[2]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~43        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~45        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[3]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~42        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~44        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[4]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~41        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~43        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[5]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~40        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~42        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[6]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~39        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~41        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[7]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~38        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~40        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[8]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~37        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~39        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[9]        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~36        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~38        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[10]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~35        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~37        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[11]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~34        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~36        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[12]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~33        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~35        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[13]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~32        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~34        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[14]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~31        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~33        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[15]       ; 1       ;
 ; price_cnt:price_cnt_inst|cnt_2s[1]~26              ; 1       ;
 ; price_cnt:price_cnt_inst|cnt_2s[2]~25              ; 1       ;
@@ -1061,20 +1058,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; price_cnt:price_cnt_inst|Equal0~6                  ; 1       ;
 ; price_cnt:price_cnt_inst|Equal0~5                  ; 1       ;
 ; price_cnt:price_cnt_inst|price[0]~61               ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~30        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~32        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[16]       ; 1       ;
+; price_cnt:price_cnt_inst|always1~4                 ; 1       ;
 ; price_cnt:price_cnt_inst|always1~3                 ; 1       ;
 ; price_cnt:price_cnt_inst|always1~2                 ; 1       ;
 ; price_cnt:price_cnt_inst|always1~1                 ; 1       ;
-; price_cnt:price_cnt_inst|always1~0                 ; 1       ;
 ; price_cnt:price_cnt_inst|Equal0~3                  ; 1       ;
 ; price_cnt:price_cnt_inst|Equal0~2                  ; 1       ;
 ; price_cnt:price_cnt_inst|Equal0~1                  ; 1       ;
 ; price_cnt:price_cnt_inst|Equal0~0                  ; 1       ;
 ; price_cnt:price_cnt_inst|Add1~0                    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~29        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~31        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[17]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~28        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~30        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[18]       ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_1ms~5             ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_1ms~4             ; 1       ;
@@ -1091,14 +1088,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; binary2bcd_216:binary2bcd_216_inst1|data[23]~19    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[23]~18    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|Add1~1         ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[23]~27    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[23]~26    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[23]~29    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[23]~28    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|Add1~0         ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[27]~25    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[27]~24    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[27]~27    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[27]~26    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|Add2~0         ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[31]~23    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[31]~22    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[31]~25    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[31]~24    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|Add3~0         ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[26]~17    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[26]~16    ; 1       ;
@@ -1106,57 +1103,57 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; binary2bcd_216:binary2bcd_216_inst1|data[30]~14    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~13        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|Add1~0         ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[22]~21    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[22]~20    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[26]~19    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[26]~18    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[30]~17    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[30]~16    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[22]~23    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[22]~22    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[26]~21    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[26]~20    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[30]~19    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[30]~18    ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~12        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~11        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~9         ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~17        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~16        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data~15        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~14        ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~13        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[26]~7     ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~6         ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data[30]~4     ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~3         ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|data~2         ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[20]~11    ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~10        ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[20]~13    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~12        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|data[19]       ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[27]~8     ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~7         ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[27]~10    ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~9         ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|cnt_flag~2     ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|cnt_flag~1     ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst1|cnt_flag~0     ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data[28]~5     ; 1       ;
-; binary2bcd_216:binary2bcd_216_inst2|data~4         ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data[28]~7     ; 1       ;
+; binary2bcd_216:binary2bcd_216_inst2|data~6         ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|Equal1~0              ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|Equal0~2              ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_sel~1             ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|cnt_sel~0             ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[7]~23  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[4]~22  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[5]~21  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[6]~20  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[8]~19  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[10]~18 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[9]~17  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[11]~16 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[13]~15 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[14]~14 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[15]~13 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[12]~12 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[16]~11 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[19]~10 ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[17]~9  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[18]~8  ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[0]~7   ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[1]~6   ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[2]~5   ; 1       ;
-; Stepper_motors:Stepper_motors_inst|cnt_20ms[3]~4   ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[7]~19  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[4]~18  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[5]~17  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[6]~16  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[8]~15  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[10]~14 ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[9]~13  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[11]~12 ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[13]~11 ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[14]~10 ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[15]~9  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[12]~8  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[16]~7  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[19]~6  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[17]~5  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[18]~4  ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[0]~3   ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[1]~2   ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[2]~1   ; 1       ;
+; Stepper_motors:Stepper_motors_inst|cnt_20ms[3]~0   ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|sel_reg~5             ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|sel_reg~4             ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|sel_reg~3             ; 1       ;
@@ -1203,14 +1200,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; binary2bcd_216:binary2bcd_216_inst2|unit[0]        ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|ten[0]         ; 1       ;
 ; binary2bcd_216:binary2bcd_216_inst2|hun[0]         ; 1       ;
-; Stepper_motors:Stepper_motors_inst|State[1]~3      ; 1       ;
-; Stepper_motors:Stepper_motors_inst|State[2]~2      ; 1       ;
+; Stepper_motors:Stepper_motors_inst|State[1]~2      ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|State[2]~1      ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|State[0]~0      ; 1       ;
+; Stepper_motors:Stepper_motors_inst|Equal0~5        ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|Equal0~4        ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|Equal0~3        ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|Equal0~2        ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|Equal0~1        ; 1       ;
+; Stepper_motors:Stepper_motors_inst|Equal0~0        ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|seg~1                 ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|seg~0                 ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|WideOr1~0             ; 1       ;
@@ -1230,13 +1228,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Stepper_motors:Stepper_motors_inst|WideOr1~0       ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|WideOr2~0       ; 1       ;
 ; Stepper_motors:Stepper_motors_inst|WideOr3~0       ; 1       ;
-; key_filter:key_filter_inst2|Equal1~6               ; 1       ;
+; key_filter:key_filter_inst2|key_flag~0             ; 1       ;
 ; key_filter:key_filter_inst2|Equal1~4               ; 1       ;
 ; key_filter:key_filter_inst2|Equal1~3               ; 1       ;
 ; key_filter:key_filter_inst2|Equal1~2               ; 1       ;
 ; key_filter:key_filter_inst2|Equal1~1               ; 1       ;
 ; key_filter:key_filter_inst2|Equal1~0               ; 1       ;
-; key_filter:key_filter_inst1|Equal1~6               ; 1       ;
+; key_filter:key_filter_inst1|key_flag~0             ; 1       ;
 ; key_filter:key_filter_inst1|Equal1~4               ; 1       ;
 ; key_filter:key_filter_inst1|Equal1~3               ; 1       ;
 ; key_filter:key_filter_inst1|Equal1~2               ; 1       ;
@@ -1442,79 +1440,79 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; key_filter:key_filter_inst2|cnt_20ms[19]~59        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[18]~58        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[18]~57        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[17]~56        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[17]~55        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[17]~54        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[16]~54        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[16]~53        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[16]~52        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[15]~52        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[15]~51        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[15]~50        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[14]~50        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[14]~49        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[14]~48        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[13]~48        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[13]~47        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[13]~46        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[12]~46        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[12]~45        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[12]~44        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[11]~44        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[11]~43        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[11]~42        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[10]~42        ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[10]~41        ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[10]~40        ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[9]~40         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[9]~39         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[9]~38         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[8]~38         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[8]~37         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[8]~36         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[7]~36         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[7]~35         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[7]~34         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[6]~34         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[6]~33         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[6]~32         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[5]~32         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[5]~31         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[5]~30         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[4]~30         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[4]~29         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[4]~28         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[3]~28         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[3]~27         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[3]~26         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[2]~26         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[2]~25         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[2]~24         ; 1       ;
+; key_filter:key_filter_inst2|cnt_20ms[1]~24         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[1]~23         ; 1       ;
-; key_filter:key_filter_inst2|cnt_20ms[1]~22         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[0]~21         ; 1       ;
 ; key_filter:key_filter_inst2|cnt_20ms[0]~20         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[19]~59        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[18]~58        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[18]~57        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[17]~56        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[17]~55        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[17]~54        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[16]~54        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[16]~53        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[16]~52        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[15]~52        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[15]~51        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[15]~50        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[14]~50        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[14]~49        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[14]~48        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[13]~48        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[13]~47        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[13]~46        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[12]~46        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[12]~45        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[12]~44        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[11]~44        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[11]~43        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[11]~42        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[10]~42        ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[10]~41        ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[10]~40        ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[9]~40         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[9]~39         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[9]~38         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[8]~38         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[8]~37         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[8]~36         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[7]~36         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[7]~35         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[7]~34         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[6]~34         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[6]~33         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[6]~32         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[5]~32         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[5]~31         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[5]~30         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[4]~30         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[4]~29         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[4]~28         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[3]~28         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[3]~27         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[3]~26         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[2]~26         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[2]~25         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[2]~24         ; 1       ;
+; key_filter:key_filter_inst1|cnt_20ms[1]~24         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[1]~23         ; 1       ;
-; key_filter:key_filter_inst1|cnt_20ms[1]~22         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[0]~21         ; 1       ;
 ; key_filter:key_filter_inst1|cnt_20ms[0]~20         ; 1       ;
 ; seg_dynamic:seg_dynamic_inst|Add0~1                ; 1       ;
@@ -1527,51 +1525,51 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+------------------------+
 ; Other Routing Resource Type ; Usage                  ;
 +-----------------------------+------------------------+
-; Block interconnects         ; 354 / 32,401 ( 1 % )   ;
+; Block interconnects         ; 328 / 32,401 ( 1 % )   ;
 ; C16 interconnects           ; 1 / 1,326 ( < 1 % )    ;
-; C4 interconnects            ; 131 / 21,816 ( < 1 % ) ;
-; Direct links                ; 133 / 32,401 ( < 1 % ) ;
+; C4 interconnects            ; 113 / 21,816 ( < 1 % ) ;
+; Direct links                ; 136 / 32,401 ( < 1 % ) ;
 ; Global clocks               ; 3 / 10 ( 30 % )        ;
-; Local interconnects         ; 285 / 10,320 ( 3 % )   ;
+; Local interconnects         ; 299 / 10,320 ( 3 % )   ;
 ; R24 interconnects           ; 4 / 1,289 ( < 1 % )    ;
-; R4 interconnects            ; 119 / 28,186 ( < 1 % ) ;
+; R4 interconnects            ; 88 / 28,186 ( < 1 % )  ;
 +-----------------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 12.55) ; Number of LABs  (Total = 31) ;
+; Number of Logic Elements  (Average = 12.42) ; Number of LABs  (Total = 31) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
+; 1                                           ; 1                            ;
 ; 2                                           ; 0                            ;
 ; 3                                           ; 0                            ;
-; 4                                           ; 1                            ;
-; 5                                           ; 1                            ;
+; 4                                           ; 2                            ;
+; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
-; 7                                           ; 0                            ;
+; 7                                           ; 1                            ;
 ; 8                                           ; 1                            ;
-; 9                                           ; 2                            ;
-; 10                                          ; 1                            ;
-; 11                                          ; 1                            ;
+; 9                                           ; 0                            ;
+; 10                                          ; 3                            ;
+; 11                                          ; 4                            ;
 ; 12                                          ; 3                            ;
 ; 13                                          ; 0                            ;
-; 14                                          ; 3                            ;
+; 14                                          ; 1                            ;
 ; 15                                          ; 3                            ;
-; 16                                          ; 13                           ;
+; 16                                          ; 12                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 2.42) ; Number of LABs  (Total = 31) ;
+; LAB-wide Signals  (Average = 2.52) ; Number of LABs  (Total = 31) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 30                           ;
-; 1 Clock                            ; 27                           ;
-; 1 Clock enable                     ; 9                            ;
+; 1 Async. clear                     ; 31                           ;
+; 1 Clock                            ; 28                           ;
+; 1 Clock enable                     ; 11                           ;
 ; 1 Sync. clear                      ; 2                            ;
-; 2 Clock enables                    ; 4                            ;
+; 2 Clock enables                    ; 3                            ;
 ; 2 Clocks                           ; 3                            ;
 +------------------------------------+------------------------------+
 
@@ -1579,39 +1577,39 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 20.26) ; Number of LABs  (Total = 31) ;
+; Number of Signals Sourced  (Average = 20.13) ; Number of LABs  (Total = 31) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 1                            ;
+; 1                                            ; 0                            ;
 ; 2                                            ; 1                            ;
 ; 3                                            ; 0                            ;
 ; 4                                            ; 0                            ;
 ; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
-; 8                                            ; 1                            ;
-; 9                                            ; 1                            ;
+; 8                                            ; 2                            ;
+; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
-; 12                                           ; 0                            ;
-; 13                                           ; 1                            ;
-; 14                                           ; 0                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 0                            ;
+; 14                                           ; 1                            ;
 ; 15                                           ; 1                            ;
 ; 16                                           ; 0                            ;
-; 17                                           ; 1                            ;
-; 18                                           ; 3                            ;
-; 19                                           ; 1                            ;
+; 17                                           ; 0                            ;
+; 18                                           ; 4                            ;
+; 19                                           ; 3                            ;
 ; 20                                           ; 1                            ;
 ; 21                                           ; 2                            ;
-; 22                                           ; 3                            ;
-; 23                                           ; 3                            ;
+; 22                                           ; 5                            ;
+; 23                                           ; 0                            ;
 ; 24                                           ; 1                            ;
-; 25                                           ; 3                            ;
-; 26                                           ; 2                            ;
-; 27                                           ; 3                            ;
-; 28                                           ; 0                            ;
-; 29                                           ; 1                            ;
-; 30                                           ; 0                            ;
+; 25                                           ; 6                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 1                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 1                            ;
 ; 31                                           ; 0                            ;
 ; 32                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
@@ -1620,56 +1618,62 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 6.71) ; Number of LABs  (Total = 31) ;
+; Number of Signals Sourced Out  (Average = 6.55) ; Number of LABs  (Total = 31) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 3                            ;
-; 2                                               ; 2                            ;
-; 3                                               ; 1                            ;
-; 4                                               ; 7                            ;
+; 1                                               ; 2                            ;
+; 2                                               ; 3                            ;
+; 3                                               ; 2                            ;
+; 4                                               ; 6                            ;
 ; 5                                               ; 3                            ;
-; 6                                               ; 0                            ;
-; 7                                               ; 3                            ;
-; 8                                               ; 2                            ;
-; 9                                               ; 1                            ;
-; 10                                              ; 3                            ;
-; 11                                              ; 0                            ;
-; 12                                              ; 2                            ;
+; 6                                               ; 2                            ;
+; 7                                               ; 4                            ;
+; 8                                               ; 1                            ;
+; 9                                               ; 0                            ;
+; 10                                              ; 2                            ;
+; 11                                              ; 1                            ;
+; 12                                              ; 1                            ;
 ; 13                                              ; 2                            ;
 ; 14                                              ; 1                            ;
-; 15                                              ; 1                            ;
+; 15                                              ; 0                            ;
+; 16                                              ; 0                            ;
+; 17                                              ; 0                            ;
+; 18                                              ; 0                            ;
+; 19                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 11.42) ; Number of LABs  (Total = 31) ;
+; Number of Distinct Inputs  (Average = 11.23) ; Number of LABs  (Total = 31) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
 ; 2                                            ; 0                            ;
 ; 3                                            ; 1                            ;
-; 4                                            ; 2                            ;
-; 5                                            ; 1                            ;
-; 6                                            ; 0                            ;
-; 7                                            ; 4                            ;
-; 8                                            ; 2                            ;
-; 9                                            ; 5                            ;
-; 10                                           ; 2                            ;
-; 11                                           ; 2                            ;
-; 12                                           ; 2                            ;
+; 4                                            ; 3                            ;
+; 5                                            ; 0                            ;
+; 6                                            ; 1                            ;
+; 7                                            ; 0                            ;
+; 8                                            ; 6                            ;
+; 9                                            ; 2                            ;
+; 10                                           ; 3                            ;
+; 11                                           ; 3                            ;
+; 12                                           ; 3                            ;
 ; 13                                           ; 0                            ;
-; 14                                           ; 2                            ;
+; 14                                           ; 1                            ;
 ; 15                                           ; 0                            ;
-; 16                                           ; 1                            ;
-; 17                                           ; 1                            ;
-; 18                                           ; 2                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 3                            ;
+; 18                                           ; 4                            ;
 ; 19                                           ; 0                            ;
-; 20                                           ; 1                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 1                            ;
-; 23                                           ; 1                            ;
+; 20                                           ; 0                            ;
+; 21                                           ; 0                            ;
+; 22                                           ; 0                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1798,16 +1802,17 @@ Note: For more information on problematic transfers, consider running the Fitter
 This will disable optimization of problematic paths and expose them for further analysis using either the TimeQuest Timing Analyzer or the Classic Timing Analyzer.
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                                                     ;
-+---------------------------------------------+-------------------------------------------------+-------------------+
-; Source Register                             ; Destination Register                            ; Delay Added in ns ;
-+---------------------------------------------+-------------------------------------------------+-------------------+
-; Stepper_motors:Stepper_motors_inst|State[1] ; Stepper_motors:Stepper_motors_inst|StepDrive[3] ; 0.017             ;
-; Stepper_motors:Stepper_motors_inst|State[2] ; StepDrive[0]                                    ; 0.015             ;
-; Stepper_motors:Stepper_motors_inst|State[0] ; Stepper_motors:Stepper_motors_inst|StepDrive[2] ; 0.015             ;
-+---------------------------------------------+-------------------------------------------------+-------------------+
-Note: This table only shows the top 3 path(s) that have the largest delay added for hold.
++--------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                      ;
++----------------------------------------------+-------------------------------------------------+-------------------+
+; Source Register                              ; Destination Register                            ; Delay Added in ns ;
++----------------------------------------------+-------------------------------------------------+-------------------+
+; Stepper_motors:Stepper_motors_inst|State[1]  ; Stepper_motors:Stepper_motors_inst|StepDrive[3] ; 0.075             ;
+; Stepper_motors:Stepper_motors_inst|State[2]  ; StepDrive[0]                                    ; 0.073             ;
+; Stepper_motors:Stepper_motors_inst|State[0]  ; Stepper_motors:Stepper_motors_inst|StepDrive[2] ; 0.073             ;
+; binary2bcd_216:binary2bcd_216_inst2|data[27] ; binary2bcd_216:binary2bcd_216_inst2|data[28]    ; 0.014             ;
++----------------------------------------------+-------------------------------------------------+-------------------+
+Note: This table only shows the top 4 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1887,20 +1892,20 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X23_Y12 to location X34_Y24
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X23_Y12 to location X34_Y24
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.45 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.38 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/output_files/Taxi_fares.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/demo/Desktop/git_Repositories/Taxi_fares/quartus_prj/output_files/Taxi_fares.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 5302 megabytes
-    Info: Processing ended: Sat Feb 24 22:51:56 2024
+    Info: Peak virtual memory: 5303 megabytes
+    Info: Processing ended: Sun Feb 25 20:10:32 2024
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:06
 
@@ -1908,6 +1913,6 @@ Info: Quartus II 64-Bit Fitter was successful. 0 errors, 3 warnings
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in E:/FPGA/altera/All_Prj/Taxi_fares/quartus_prj/output_files/Taxi_fares.fit.smsg.
+The suppressed messages can be found in C:/Users/demo/Desktop/git_Repositories/Taxi_fares/quartus_prj/output_files/Taxi_fares.fit.smsg.
 
 

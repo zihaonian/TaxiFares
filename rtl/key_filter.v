@@ -26,9 +26,9 @@ always@(posedge sys_clk or  negedge sys_rst_n)
     if(sys_rst_n    ==  1'b0)
         key_flag   <=   1'b0;
     else    if(cnt_20ms ==  (CNT_MAX -   20'd1))
-        key_flag   <=   1'b1;
+        key_flag   <=   ~key_flag;
     else    
-        key_flag   <=   1'b0;
+        key_flag   <=   key_flag;
         
 
 endmodule
